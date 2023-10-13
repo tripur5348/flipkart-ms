@@ -42,7 +42,7 @@ pipeline {
         stage('Docker Image Scanning') {
             steps {
                 echo 'Docker Image Scanning Started'
-                sh 'java -version'
+                sh 'java --version'
                 echo 'Docker Image Scanning Started'
             }
         }
